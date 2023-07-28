@@ -67,9 +67,7 @@ In **logistic regression**, the relationship between a predictor variable and th
                             $$
                             <br/>
 
-                            $$
-                            \text{logit}(p) = \ln\left(\frac{p}{1-p}\right)
-                            $$
+                            $$ r~{contrast}~ = \sqrt{t^2 \over t^2+7441} $$
 
 # Modeling and Evaluation 
 The confusion matrix below visualizes the results of the logistics regression model:
