@@ -14,12 +14,12 @@ Multiple redundant columns were dropped and reformatted into the proper data typ
 # Modeling and Evaluation 
 The below plots show that the performance of the prediction model by evaluating the three main assumptions of the results – Homoscedasticity, Normality and Linearity – respectively. 
 
-![Plot to show the Homoscedasticity](/images/1.png)
+![Plot to show the Homoscedasticity](/Automatidata/images/1.png)
  
-![Plot to show the Homoscedasticity](/images/2.png)
+![Plot to show the Homoscedasticity](/Automatidata//images/2.png)
 **Insight**: The distribution of the residuals is normal and has a mean of -0.015. This normal distribution around zero is good, as it demonstrates that the model errors are evenly distributed and unbiased.
 
-![Plot to show the Homoscedasticity](/images/3.png)
+![Plot to show the Homoscedasticity](/Automatidata//images/3.png)
 **Insight**: The model's residuals are evenly distributed above and below zero, with the exception of the sloping lines from the upper-left corner to the lower-right corner, which they represent the imputed maximum of \$62.50 and the flat rate of \$52 for JFK airport trips.
 
 
