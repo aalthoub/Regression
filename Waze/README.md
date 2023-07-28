@@ -62,7 +62,9 @@ Below is a visualization of the linear relationship between predictor variables 
 **Rule:**
 In **logistic regression**, the relationship between a predictor variable and the dependent variable does not need to be linear, however, the log-odds (a.k.a logit) of the dependent variable with respect to the predictor variable should be linear. Here is the formula for calculating log-odds, where _p_ is the probability of response:
                             <br>
-                            $$ logit(p) = ln(\frac{p}{1-p}) $$
+                            $$ 
+                            logit(p) = ln(\frac{p}{1-p}) 
+                            $$
                             <br>
 
 # Modeling and Evaluation 
