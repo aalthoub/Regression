@@ -45,7 +45,7 @@ Below is a visualization of the distribution of `video_transcription_text` lengt
 
 # Modeling and Evaluation 
 The confusion matrix below visualizes the results of the logistics regression model.
-![Plot to show the Homoscedasticity](TikTok/images/2.png)
+![visualizes the results of the logistics regression model](/TikTok/images/2.png)
 
 **Insights:**
 - The upper-left quadrant displays the number of videos posted by unverified accounts that the model accurately classified as so.
