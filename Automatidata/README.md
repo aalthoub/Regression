@@ -12,10 +12,10 @@ Other features were engineered to represent different information as shown below
 Multiple redundant columns were dropped and reformatted into the proper data type.
 
 # Modeling and Evaluation 
-The below plots show that the performance of the prediction model by evaluating the three main assumptions of the results – Homoscedasticity, Normality and Linearity – respectively. 
+The below plots show that the performance of the prediction model by evaluating the three main assumptions of the results – **Homoscedasticity**, **Normality** and **Linearity** – respectively. 
 
 ![Plot to show the Homoscedasticity](/Automatidata/images/1.png)
-<img align="center" src="/Automatidata/images/1.png" />
+<img align="center" src="/Automatidata/images/1.png"/>
  
 ![Plot to show the Homoscedasticity](/Automatidata//images/2.png)
 - **Insight**: The distribution of the residuals is normal and has a mean of -0.015. This normal distribution around zero is good, as it demonstrates that the model errors are evenly distributed and unbiased.
