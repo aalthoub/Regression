@@ -60,14 +60,7 @@ Below is a visualization of the linear relationship between predictor variables 
 ![Linear relationship between predictor variables and the estimated log odds](/Waze/images/2.png)
 
 **Rule:**
-In **logistic regression**, the relationship between a predictor variable and the dependent variable does not need to be linear, however, the log-odds (a.k.a logit) of the dependent variable with respect to the predictor variable should be linear. Here is the formula for calculating log-odds, where _p_ is the probability of response:
-                            </br>
-                            $$ 
-                            logit(p) = ln(\frac{p}{1-p}) 
-                            $$
-                            <br/>
-
-                            $$ r~{contrast}~ = \sqrt{t^2 \over t^2+7441} $$
+In **logistic regression**, the relationship between a predictor variable and the dependent variable does not need to be linear, however, the log-odds (a.k.a logit) of the dependent variable with respect to the predictor variable should be linear. Here is the formula for calculating log-odds, where _p_ is the probability of response: $$logit(p) = ln(\frac{p}{1-p})$$
 
 # Modeling and Evaluation 
 The confusion matrix below visualizes the results of the logistics regression model:
