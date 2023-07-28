@@ -41,11 +41,11 @@ Below is a visualization of the distribution of `video_transcription_text` lengt
 1. Verified accounts 
 2. Unverified accounts
 
-![Visualize the distribution of `video_transcription_text`](/images/1.png)
+![Visualize the distribution of `video_transcription_text`](/Regression/images/1.png)
 
 # Modeling and Evaluation 
 The confusion matrix below visualizes the results of the logistics regression model.
-![Plot to show the Homoscedasticity](/images/2.png)
+![Plot to show the Homoscedasticity](Regression/images/2.png)
 
 **Insights:**
 - The upper-left quadrant displays the number of videos posted by unverified accounts that the model accurately classified as so.
