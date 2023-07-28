@@ -65,7 +65,7 @@ In **logistic regression**, the relationship between a predictor variable and th
                             $$ 
                             logit(p) = ln(\frac{p}{1-p}) 
                             $$
-                            <br>
+                            <br/>
 
 # Modeling and Evaluation 
 The confusion matrix below visualizes the results of the logistics regression model:
