@@ -47,7 +47,7 @@ Some features were engineered to represent different information as shown below:
 Other features either dropped or encoded upon building the model.
 
 Below is a visualization of the correlation among the predictor variables: 
-![Visualize the correlation](/images/1.png)
+![Visualize the correlation](/Waze/images/1.png)
 
 **Insight**
 The following predictors are strongly multicollinear as they have a Pearson correlation coefficient value greater than the **absolute value of 0.7**:
@@ -57,7 +57,7 @@ The following predictors are strongly multicollinear as they have a Pearson corr
 **Note:** 0.7 is an arbitrary threshold. Some industries may use 0.6, 0.8, etc.
 
 Below is a visualization of the linear relationship between predictor variables and the estimated log odds (known as logits):
-![Linear relationship between predictor variables and the estimated log odds](/images/2.png)
+![Linear relationship between predictor variables and the estimated log odds](/Waze/images/2.png)
 
 **Rule:**
 In **logistic regression**, the relationship between a predictor variable and the dependent variable does not need to be linear, however, the log-odds (a.k.a logit) of the dependent variable with respect to the predictor variable should be linear. Here is the formula for calculating log-odds, where _p_ is the probability of response:
@@ -67,10 +67,10 @@ In **logistic regression**, the relationship between a predictor variable and th
 
 # Modeling and Evaluation 
 The confusion matrix below visualizes the results of the logistics regression model:
-![Confusion Matrix](/images/3.png)
+![Confusion Matrix](/Waze/images/3.png)
 
 The barplot below visualizes the model's coefficients to show the importance of the model's features:
-![Barplot](/images/4.png)
+![Barplot](/Waze/images/4.png)
 
 
 # Conclusion
