@@ -23,14 +23,14 @@ The data consist of approximately 570 rows and 5 columns. The features are liste
 
 
 Below is a pairplot to visualize the relationship between the continous variables
-![pairplot](/images/1.png)
+![pairplot](/TV_Sales/images/1.png)
 
 **Insight** 
 `Radio` and `Social Media` both appear to have linear relationships with `Sales`. Notice that `TV` and `Influencer` are excluded from the pairplot because they are not numeric. 
 
 # Modeling and Evaluation 
 The following is the results of the OLS regression model:
-![OLS Results](/images/2.png)
+![OLS Results](/TV_Sales/images/2.png)
 
 **Interpret Model Coefficients** 
 - Using `TV` and `Radio` as the independent variables results in a multiple linear regression model with $R^{2} = 0.904$. In other words, the model explains $90.4\%$ of the variation in `Sales`. This makes the model an excellent predictor of `Sales`. 
@@ -42,21 +42,20 @@ The following is the results of the OLS regression model:
 - The p-value for all coefficients is $0.000$, meaning all coefficients are statistically significant at $p=0.05$. The 95% confidence intervals for each coefficient should be reported when presenting results to stakeholders. For example, there is a $95\%$ chance that the interval $[-163.979,-144.616]$ contains the true parameter of the slope of $\beta_{TVLow}$, which is the estimated difference in promotion sales when a `Low` `TV` promotion is chosen instead of a `High` `TV` promotion.
 
 ## Model Assumtion: Linearity
-![Linearity](/images/3.png)
+![Linearity](/TV_Sales/images/3.png)
 
 **Insight**
 The linearity assumption holds for `Radio`, as there is a clear linear relationship in the scatterplot between `Radio` and `Sales`. Also, the `Social_Media` does appear to have a linear relationship with `Sales`.
 
 ## Model Assumtion: Normality
-![Linearity](/images/4.png)
+![Linearity](/TV_Sales/images/4.png)
 
 **Insight** 
 - The histogram of the residuals are approximately normally distributed, which supports that the normality assumption is met for this model. 
 - The residuals in the Q-Q plot form a straight line, further supporting that this assumption is met.
 
 ## Model Asuumption: Contant Variance
-![Linearity](/images/5.png)
-
+![Linearity](/TV_Sales/images/5.png)
 
 **Insight**
 The fitted values are in three groups because the categorical variable is dominating in this model, meaning that TV is the biggest factor that decides the sales. However, the variance where there are fitted values is similarly distributed, validating that the assumption is met.
